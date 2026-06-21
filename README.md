@@ -1,10 +1,5 @@
 # Go Web Application – DevOps Edition
 
-![CI pipeline](https://github.com/eyugandhar1999/go-web-app-devops-portfolio/actions/workflows/ci.yaml/badge.svg)
-![Docker](https://img.shields.io/badge/Docker-multi--stage-blue)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Helm-blue)
-![Security](https://img.shields.io/badge/Security-Trivy%20%7C%20CodeQL%20%7C%20SBOM-green)
-
 This is a DevOps-enhanced deployment of a basic Golang web application, restructured and productionized with best practices for containerization, CI/CD, observability, DevSecOps scanning, and Kubernetes deployment.
 
 ## Project Purpose
