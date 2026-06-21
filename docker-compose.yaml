@@ -1,0 +1,25 @@
+services:
+  web:
+    build:
+      context: .
+      target: dev
+    container_name: go-web-app-dev
+    environment:
+      PORT: 8080
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/src
+    restart: unless-stopped
+
+  prod:
+    profiles: ["prod"]
+    build:
+      context: .
+      target: prod
+    container_name: go-web-app-prod
+    environment:
+      PORT: 8080
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
