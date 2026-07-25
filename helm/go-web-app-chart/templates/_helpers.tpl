@@ -1,5 +1,5 @@
 {{- define "go-web-app-chart.name" -}}
-{{- default .Chart.Name .Values.nameO verride | trunc 63 | trimSuffix "-" -}}
+{{- default .Chart.Name .Values.nameOverride | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
 {{- define "go-web-app-chart.fullname" -}}
