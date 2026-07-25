@@ -1,6 +1,6 @@
 {{- if .Values.autoscaling.enabled }}
 apiVersion: autoscaling/v2
-kind: HorizontalPodAu toscaler
+kind: HorizontalPodAutoscaler
 metadata:
   name: {{ include "go-web-app-chart.fullname" . }}
   labels:
