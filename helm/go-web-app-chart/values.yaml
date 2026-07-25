@@ -1,4 +1,5 @@
-replicaCount: 2
+replicaCount: 3
+
 
 image:
   repository: ghcr.io/your-github-username/go-web-app-devops
