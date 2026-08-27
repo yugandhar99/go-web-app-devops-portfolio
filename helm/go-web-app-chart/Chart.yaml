@@ -1,4 +1,4 @@
-apiVersion: v2 
+apiVersion: v2
 name: go-web-app-chart
 description: Helm chart for a containerized Go web application with health probes and production security defaults.
 type: application
