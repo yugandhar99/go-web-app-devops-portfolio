@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate an AI-style release summary for a Go DevOps portfolio project. 
+"""Generate an AI-style release summary for a Go DevOps portfolio project.
 
 The script is safe by default: offline mode creates a deterministic summary from
 local Git metadata and optional scan files. Bedrock mode is intentionally a
