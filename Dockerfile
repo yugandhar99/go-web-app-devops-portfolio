@@ -3,7 +3,7 @@
 ARG GO_VERSION=1.23
 
 # Base stage used for dependency download.
-FROM golang:${GO_VERSION}-alpine AS base
+FROM golang:${GO_VERSION}-alpine AS base 
 WORKDIR /src
 COPY go.mod ./
 RUN go mod download
